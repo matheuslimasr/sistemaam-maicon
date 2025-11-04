@@ -108,7 +108,7 @@ const LoginPage = () => {
         height: '100vh',
         width: '100%',
 
-        backgroundImage: 'url("/images/wallpaper.jpeg")',
+        backgroundImage: 'url("https://images.pexels.com/photos/1275929/pexels-photo-1275929.jpeg")',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center'
@@ -127,13 +127,13 @@ const LoginPage = () => {
           <LoginIllustration
             width={40}
             alt='login-illustration'
-            src={`/images/brand.jpg`}
+            src={`/images/apple-touch-icon.png`}
             style={{ borderRadius: 100 }}
           />
           <Typography
             variant='h5'
             sx={{
-              ml: 2,
+              ml: 0,
               lineHeight: 1,
               fontWeight: 700,
               letterSpacing: '-0.45px',
