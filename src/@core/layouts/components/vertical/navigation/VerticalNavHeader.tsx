@@ -119,7 +119,7 @@ const VerticalNavHeader = (props: Props) => {
         userNavMenuBranding(props)
       ) : (
         <LinkStyled href='/'>
-          <Image src='http://localhost:3000/images/logo.png' width={150} height={25} alt='Logomarca' />
+          <Image src='https://sistemam-maicon.vercel.app/images/logo.png' width={150} height={25} alt='Logomarca' />
         </LinkStyled>
       )}
 
